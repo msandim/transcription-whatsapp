@@ -1,8 +1,12 @@
+# Ignore contents of directories
 audios/*
 audios all copy/
-chats_divided/
+chats/*
+chats_divided/*
 transcriptions/*
 
 # Keep the directories but ignore their contents
 !audios/.gitkeep
+!chats/.gitkeep
+!chats_divided/.gitkeep
 !transcriptions/.gitkeep
