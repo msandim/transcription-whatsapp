@@ -1,6 +1,6 @@
 # Ignore contents of directories
 audios/*
-audios all copy/
+audios_all_copy/
 chats/*
 chats_divided/*
 transcriptions/*
@@ -10,3 +10,10 @@ transcriptions/*
 !chats/.gitkeep
 !chats_divided/.gitkeep
 !transcriptions/.gitkeep
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
